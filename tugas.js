@@ -1452,7 +1452,7 @@ var data = [
           filteredData.forEach((value) => {
               result += `
                       <h2>${value.nama_lengkap}</h2>
-                      <p>Nama Lengkap : ${value.nama_lengkap}</p>
+                      <p>Nama Lengkap : </p><b>${value.nama_lengkap}<b></p>
                       <p>Nama Panggilan : ${value.nama_panggilan}</p>
                       <p>NIM : ${value.nim}</p>
                       <p>Nomor Telepon : ${value.nomor_telepon}</p>
